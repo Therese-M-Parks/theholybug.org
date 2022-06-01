@@ -1,0 +1,21 @@
+TO RUN THE APP I HAVE TO CHANGE INDEX BACK TO HTML FOR SOME REASON.
+
+Used these two tutorials:
+https://www.youtube.com/watch?v=4wD00RT6d-g&t=1244s
+https://www.youtube.com/watch?v=uzM5lETc6Sg
+
+Main difference: I followed the first one for initial setup for installing
+node and Eleventy
+I followed the second one's .eleventy.js file's return statement plus reset VSCODE settings and used the return statement and nunjucks ran after that with no other additional vscode stuff. 
+    return {
+        dir: {
+            input: "src",
+            includes: "_includes",
+            output: "_site",
+        },
+        templateFormats: ['md', 'njk', 'html'],
+        markdownTemplateEngines: 'njk',
+        htmlTemplateEngines: 'njk',
+        dataTemplateEngines: 'njk'
+    };
+Then I proceeded with the first one
